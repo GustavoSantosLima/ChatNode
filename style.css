@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e5ddd5;
+}
+
+.container-fluid{
+    padding-left: 0;
+}
+
+#mensagens>li {
+    width: 33%;
+    background-color: #dcf8c6;
+    margin: 1% 1% 1% 66.5%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    list-style: none;
+    font-size: 16px;
+}
+
+#mensagens>li:nth-child(even) {
+    background-color: #fff;
+    margin: 1%;
+}
+
+.box {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 20px;
+    background: #f5f1ee;
+}
+
+#m {
+    width: 88%;
+    margin-right: 1%;
+}
+
+.btn {
+    width: 10%;
+}
